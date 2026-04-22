@@ -1,8 +1,8 @@
-# uniapp-design
+# uniapp-design-skill
 
 The design skill that makes your AI harness better at uni-app & mini-program development.
 
-> **Quick start:** Copy `.opencode/skills/uniapp-design/` into your project's `.opencode/skills/` directory.
+> **Quick start:** Copy this repo into your AI tool's skills directory. See [Installation](#installation) below.
 
 ## Why uniapp-design?
 
@@ -23,11 +23,11 @@ A comprehensive design & development skill with 5 domain-specific references:
 
 | Reference | Covers |
 |-----------|--------|
-| [component-mapping](.opencode/skills/uniapp-design/reference/component-mapping.md) | HTML → uni-app tags, event mapping, lifecycle hooks, Vue 2/3 differences |
-| [css-compat](.opencode/skills/uniapp-design/reference/css-compat.md) | rpx units, supported/unsupported CSS, selectors, alternatives |
-| [design-tokens](.opencode/skills/uniapp-design/reference/design-tokens.md) | Spacing scale, color system, typography, radius, shadows, SCSS templates |
-| [platform-patterns](.opencode/skills/uniapp-design/reference/platform-patterns.md) | Conditional compilation, platform differences, subpackaging, common pitfalls |
-| [design-principles](.opencode/skills/uniapp-design/reference/design-principles.md) | Mobile typography, touch-friendly layout, animation, empty states, forms |
+| [component-mapping](reference/component-mapping.md) | HTML → uni-app tags, event mapping, lifecycle hooks, Vue 2/3 differences |
+| [css-compat](reference/css-compat.md) | rpx units, supported/unsupported CSS, selectors, alternatives |
+| [design-tokens](reference/design-tokens.md) | Spacing scale, color system, typography, radius, shadows, SCSS templates |
+| [platform-patterns](reference/platform-patterns.md) | Conditional compilation, platform differences, subpackaging, common pitfalls |
+| [design-principles](reference/design-principles.md) | Mobile typography, touch-friendly layout, animation, empty states, forms |
 
 ### Iron Rules
 
@@ -79,41 +79,44 @@ The main `SKILL.md` (~140 lines) is always loaded. Reference files are loaded on
 ### OpenCode
 
 ```bash
-# Copy to your project
-cp -r .opencode/skills/uniapp-design your-project/.opencode/skills/
+cp -r uniapp-design-skill your-project/.opencode/skills/uniapp-design
 ```
 
 ### Cursor
 
 ```bash
-cp -r .opencode/skills/uniapp-design your-project/.cursor/skills/
+cp -r uniapp-design-skill your-project/.cursor/skills/uniapp-design
 ```
 
 ### Claude Code
 
 ```bash
 # Project-level
-cp -r .opencode/skills/uniapp-design your-project/.claude/skills/
+cp -r uniapp-design-skill your-project/.claude/skills/uniapp-design
 
 # Global
-cp -r .opencode/skills/uniapp-design ~/.claude/skills/
+cp -r uniapp-design-skill ~/.claude/skills/uniapp-design
 ```
 
 ### Gemini CLI
 
 ```bash
-cp -r .opencode/skills/uniapp-design your-project/.gemini/skills/
+cp -r uniapp-design-skill your-project/.gemini/skills/uniapp-design
 ```
 
 ### Codex CLI
 
 ```bash
-cp -r .opencode/skills/uniapp-design ~/.codex/skills/
+cp -r uniapp-design-skill ~/.codex/skills/uniapp-design
 ```
 
 ### Manual
 
-Copy the entire `uniapp-design` folder into your tool's skills directory. The skill is plain Markdown — no build step required.
+Clone this repo and copy the entire folder into your AI tool's skills directory. The skill is plain Markdown — no build step required.
+
+```bash
+git clone https://github.com/Lizz-666/uniapp-design-skill.git
+```
 
 ## Usage
 
